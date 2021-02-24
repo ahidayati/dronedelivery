@@ -10,3 +10,8 @@ font-family: 'Paytone One', sans-serif; */
 body {
   text-align: center;
 }
+
+/* title section */
+.title-image {
+  width: 50%;
+}
