@@ -12,6 +12,24 @@ body {
 }
 
 /* title section */
+#title {
+  background-color: #28527a;
+  padding: 0 15% 7%;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 700;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.opening-title {
+  padding-top: 5%;
+}
+
 .title-image {
-  width: 50%;
+  width: 65%;
 }
