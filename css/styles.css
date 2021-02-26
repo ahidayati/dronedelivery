@@ -1,5 +1,5 @@
 /* color palette */
-/* #28527a
+/* c
 #8ac4d0
 #f4d160
 #fbeeac */
@@ -17,13 +17,26 @@ body {
   padding: 0 15% 7%;
 }
 
+.navbar {
+  padding-top: 3%;
+}
+
+.navbar-brand {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 2rem;
+}
+
 .big-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 700;
-  font-weight: bold;
+
+  font-weight: bolder;
   color: #ffffff;
   line-height: 1.5;
   text-align: left;
+}
+
+h1.big-heading {
+  font-size: 3.1rem;
 }
 
 .opening-title {
@@ -31,5 +44,32 @@ body {
 }
 
 .title-image {
-  width: 65%;
+  width: 60%;
+  padding-top: 0;
+}
+
+.title-download-section {
+text-align: left;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* features section */
+#features {
+  padding: 12% 7%;
+}
+
+.feature-icon {
+  font-size: 300%;
+  color: #28527a;
+}
+
+.feature-title {
+  
+}
+
+.feature-text {
+
 }
