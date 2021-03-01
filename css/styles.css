@@ -64,12 +64,33 @@ text-align: left;
 .feature-icon {
   font-size: 300%;
   color: #28527a;
-}
-
-.feature-title {
-  
+  padding: 3% 0;
 }
 
 .feature-text {
+  font-size: 1.5rem;
+}
 
+/* testimonials section */
+#testimonials {
+  background-color: #8ac4d0;
+}
+
+.carousel-inner {
+  padding: 10% 7%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+}
+
+/* press section */
+#press {
+  background-color: #8ac4d0;
+  padding: 4% 0;
+}
+.press-image {
+  width: 15%;
+  margin: 0 2%;
 }
