@@ -101,9 +101,21 @@ text-align: left;
 }
 
 .card {
-  margin: 5% 10%; 
+  margin: 5% 10%;
 }
 
 .signup-button {
   margin: 0 25% 5%;
+}
+
+/* call to action section */
+#cta {
+  background-color: #28527a;
+  padding: 10% 7%;
+}
+
+.cta-text {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: bold;
 }
