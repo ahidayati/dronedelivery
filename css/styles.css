@@ -97,7 +97,7 @@ text-align: left;
 
 /* pricing section */
 #pricing {
-  padding: 15% 7%;
+  padding: 10% 7%;
 }
 
 .card {
@@ -118,4 +118,24 @@ text-align: left;
   color: #ffffff;
   font-size: 3rem;
   font-weight: bold;
+}
+
+.cta-download {
+  margin-left: 1%;
+}
+
+/* footer section */
+#footer {
+  padding: 3% 0;
+}
+
+.social-logo {
+  color: #000000;
+  margin: 2% 1.5% 0.5%;
+  font-size: 1.5rem;
+}
+
+.footer-text {
+  color: grey;
+  font-size: 1rem;
 }
