@@ -1,5 +1,5 @@
 /* color palette */
-/* c
+/*
 #8ac4d0
 #f4d160
 #fbeeac */
@@ -28,7 +28,6 @@ body {
 
 .big-heading {
   font-family: 'Montserrat', sans-serif;
-
   font-weight: bolder;
   color: #ffffff;
   line-height: 1.5;
@@ -58,7 +57,7 @@ text-align: left;
 
 /* features section */
 #features {
-  padding: 12% 7%;
+  padding: 10% 17%;
 }
 
 .feature-icon {
@@ -77,7 +76,7 @@ text-align: left;
 }
 
 .carousel-inner {
-  padding: 10% 7%;
+  padding: 8% 15%;
 }
 
 .testimonial-image {
@@ -97,11 +96,11 @@ text-align: left;
 
 /* pricing section */
 #pricing {
-  padding: 10% 7%;
+  padding: 10% 12%;
 }
 
 .card {
-  margin: 5% 10%;
+  margin: 5% 3%;
 }
 
 .signup-button {
@@ -111,12 +110,12 @@ text-align: left;
 /* call to action section */
 #cta {
   background-color: #28527a;
-  padding: 10% 7%;
+  padding: 10% 15%;
 }
 
 .cta-text {
   color: #ffffff;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -138,4 +137,37 @@ text-align: left;
 .footer-text {
   color: grey;
   font-size: 1rem;
+}
+
+/* contact page */
+.contact-page {
+  background-color: #28527a;
+  padding: 7% 20%;
+  text-align: left;
+}
+
+.contact-page-text {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+
+}
+a.contact-me:link {
+  text-decoration: none;
+  color: #8ac4d0;
+}
+
+a.contact-me:hover {
+  text-decoration: underline;
+}
+
+.drone-image-contactpage {
+  width: 22%;
+  margin-left: 0;
+}
+
+/* media queries */
+@media screen and (max-width: 480px) {
+  h1.big-heading {
+    font-size: 2rem;}
 }
