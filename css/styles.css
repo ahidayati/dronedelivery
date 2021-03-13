@@ -61,9 +61,13 @@ text-align: left;
 }
 
 .feature-icon {
-  font-size: 300%;
+  font-size: 350%;
   color: #28527a;
   padding: 3% 0;
+}
+
+.feature-icon:hover {
+  color: #8ac4d0;
 }
 
 .feature-text {
